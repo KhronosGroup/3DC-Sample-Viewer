@@ -3,7 +3,7 @@ import json
 import os
 import sys
 
-def generate_index(root):
+def generate_index(root, output_path):
     os.chdir(root)
     index = []
     for model in sorted(os.listdir(".")):
@@ -33,13 +33,13 @@ def generate_index(root):
             index.append(model_info)
         os.chdir("..")
 
-    with open("model-index.json", "w") as f:
+    with open(output_path + "/model-index.json", "w") as f:
         json.dump(index, f, indent=2, sort_keys=True)
         f.write("\n")
 
     os.chdir("..")
 
-if(len(sys.argv) == 2):
-    generate_index(sys.argv[1])
+if(len(sys.argv) == 3):
+    generate_index(sys.argv[1], sys.argv[2])
 else:
-    print ("Usage: python generate-index.py <path>")
+    print ("Usage: python generate-index.py <path_to_models> <output_path>")

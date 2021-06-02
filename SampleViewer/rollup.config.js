@@ -36,6 +36,7 @@ export default {
         targets: [
             { src: ["index.html"], dest: "dist/"},
             { src: ["../models"], dest: "dist/assets"},
+            { src: ["model-index.json"], dest: "dist/assets/models"},
             { src: ["ui"], dest: "dist/assets"},
             { src: ["images"], dest: "dist/assets"},
             { src: ["node_modules/@khronosgroup/gltf-viewer/dist/libs/*", "!../source/libs/hdrpng.js"], dest: "dist/libs"},
