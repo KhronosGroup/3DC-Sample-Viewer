@@ -35,7 +35,7 @@ export default {
     copy({
         targets: [
             { src: ["index.html"], dest: "dist/"},
-            { src: ["../models"], dest: "dist/assets"},
+            { src: ["../3DC-Certification/models"], dest: "dist/assets"},
             { src: ["model-index.json"], dest: "dist/assets/models"},
             { src: ["ui"], dest: "dist/assets"},
             { src: ["images"], dest: "dist/assets"},
