@@ -1,0 +1,3 @@
+[submodule "3DC-Certification"]
+	path = 3DC-Certification
+	url = git@github.com:KhronosGroup/3DC-Certification.git
