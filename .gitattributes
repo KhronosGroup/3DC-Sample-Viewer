@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 The Khronos Group, Inc.
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # Set line endings of js,json,html,css files to unix-style, other files automatic by platform.
 * text=auto
 *.js text eol=lf

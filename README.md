@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 The Khronos Group, Inc.
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # 3DC-Sample-Viewer
 Physically-Based Rendering in glTF 2.0 using WebGL
 

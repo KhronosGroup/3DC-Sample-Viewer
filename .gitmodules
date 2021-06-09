@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 The Khronos Group, Inc.
+#
+# SPDX-License-Identifier: CC0-1.0
+
 [submodule "3DC-Certification"]
 	path = 3DC-Certification
 	url = git@github.com:KhronosGroup/3DC-Certification.git
